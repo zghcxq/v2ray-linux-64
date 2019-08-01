@@ -52,8 +52,10 @@ def Analyze(s):
 		resultc= resultc + configlist[configlen]
 	if solvethesign == 0:
 		confige_file.write(resultc)
+		print("Add vmessNode success!")
 	else:	
 		confige_file.write("//"+resultc)
+		print("Add vmessNode success!")
 
 	
 	confige_file.close()

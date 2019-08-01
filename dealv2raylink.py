@@ -22,8 +22,6 @@ def decode_v2ray(vmess):
 
     
     first_b = base64decode(vmess[8:])
-    
-    print(first_b.decode())
 
     configcreat.Analyze(first_b.decode())
 
